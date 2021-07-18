@@ -12,9 +12,14 @@
       <header align="center">My Chatting Application</header>
    
    
+          <form action="#" method="POST" enctype="multipart/form-data" autocomplete="off">
+        <div class="error-text"></div>
+        <div class="field input">
+          <label>Email Address</label>
+          <input type="text" name="email" placeholder="Enter your email" required>
+        </div>
    
-   
-   
+           </form>
    
       <div class="link">Not yet signed up? <a href="index.php">Signup now</a></div>
     </section>
